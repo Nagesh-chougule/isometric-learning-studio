@@ -1,0 +1,129 @@
+{
+  "title": "Notched block with through-hole",
+  "description": "A rectangular block with a round hole drilled front to back and a notch cut from the top-right corner.",
+  "difficulty": "beginner",
+  "projection_type": "third",
+  "units": "mm",
+  "length": 60,
+  "width": 30,
+  "height": 40,
+  "side_view_kind": "right",
+  "instructions": "Study the three views and the 3D model. Sketch the isometric view of the part, showing the hole and the notch.",
+  "learning_objectives": "Relate orthographic views to an isometric object.\nRecognise hidden-line conventions for a through-hole.",
+  "hints": "The hole runs front to back, so it is a circle only in the front view.",
+  "show_hints": true,
+  "geometry": {
+    "version": 1,
+    "block": {
+      "length": 60,
+      "width": 30,
+      "height": 40
+    },
+    "features": [
+      {
+        "type": "through-hole",
+        "axis": "z",
+        "a": 30,
+        "b": 20,
+        "diameter": 12
+      },
+      {
+        "type": "pocket",
+        "face": "front",
+        "u": 40,
+        "v": 25,
+        "w": 20,
+        "h": 15,
+        "depth": 30
+      }
+    ]
+  },
+  "dimensions": [
+    {
+      "feature_type": "overall",
+      "feature_name": "Overall length",
+      "dimension_value": 60,
+      "unit": "mm",
+      "geometry_data": null,
+      "sort_order": 0
+    },
+    {
+      "feature_type": "overall",
+      "feature_name": "Overall width",
+      "dimension_value": 30,
+      "unit": "mm",
+      "geometry_data": null,
+      "sort_order": 1
+    },
+    {
+      "feature_type": "overall",
+      "feature_name": "Overall height",
+      "dimension_value": 40,
+      "unit": "mm",
+      "geometry_data": null,
+      "sort_order": 2
+    },
+    {
+      "feature_type": "hole",
+      "feature_name": "Hole 1 diameter (through)",
+      "dimension_value": 12,
+      "unit": "mm",
+      "geometry_data": {
+        "type": "through-hole",
+        "axis": "z",
+        "a": 30,
+        "b": 20,
+        "diameter": 12
+      },
+      "sort_order": 3
+    },
+    {
+      "feature_type": "pocket",
+      "feature_name": "Pocket 2 width",
+      "dimension_value": 20,
+      "unit": "mm",
+      "geometry_data": {
+        "type": "pocket",
+        "face": "front",
+        "u": 40,
+        "v": 25,
+        "w": 20,
+        "h": 15,
+        "depth": 30
+      },
+      "sort_order": 4
+    },
+    {
+      "feature_type": "pocket",
+      "feature_name": "Pocket 2 height",
+      "dimension_value": 15,
+      "unit": "mm",
+      "geometry_data": {
+        "type": "pocket",
+        "face": "front",
+        "u": 40,
+        "v": 25,
+        "w": 20,
+        "h": 15,
+        "depth": 30
+      },
+      "sort_order": 5
+    },
+    {
+      "feature_type": "pocket",
+      "feature_name": "Pocket 2 depth",
+      "dimension_value": 30,
+      "unit": "mm",
+      "geometry_data": {
+        "type": "pocket",
+        "face": "front",
+        "u": 40,
+        "v": 25,
+        "w": 20,
+        "h": 15,
+        "depth": 30
+      },
+      "sort_order": 6
+    }
+  ]
+}
